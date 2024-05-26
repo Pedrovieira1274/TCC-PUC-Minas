@@ -34,7 +34,12 @@ Conforme imagem abaixo apresentada, a tabela fato consiste na unificação das i
 
 - Fontes de Dados
 
-Nessa etapa, da lista de conjuntos de dados encontrados, utilizou-se a base de informações do Portal de Dados Aberto - Governo Brasileiro. Foi realizada a extração de dados, no formato Excel, do histórico de acidentes ocorridos de Janeiro de 2019 a Dezembro de 2020. Para compor a base inicial, precisou realizar a extração de três bases de dados. Todas extraídas no formato Excel e no portal do Governo Brasileiro. Tais bases coletadas: I. Informações de cadastro do CID-10 do período relacionado às informações. II. Informações de cadastro do CNAE 2.0 Classes da Estrutura superior. III. Informações da Tabela 14 do eSocial, utilizando a Base completa de Agentes causadores do acidente.
+Nessa etapa, da lista de conjuntos de dados encontrados, utilizou-se a base de informações do Portal de Dados Aberto - Governo Brasileiro. Foi realizada a extração de dados, no formato Excel, do histórico de acidentes ocorridos de Janeiro de 2019 a Dezembro de 2020. 
+Para compor a base inicial, precisou realizar a extração de três bases de dados. Todas extraídas no formato Excel e no portal do Governo Brasileiro. 
+Tais bases coletadas:
+I. Informações de cadastro do CID-10 do período relacionado às informações. 
+II. Informações de cadastro do CNAE 2.0 Classes da Estrutura superior. 
+III. Informações da Tabela 14 do eSocial, utilizando a Base completa de Agentes causadores do acidente.
 
 - Processos de Integração e Carga (ETL)
 Fluxo completo do processo ETL. Para melhor visualização, as informações estão apresentadas as etapas de cada fluxo.
