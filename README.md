@@ -79,10 +79,10 @@ Fluxo completo do processo ETL. Para melhor visualização, as informações est
 
 - Links e referências (utilizar navegador Microsoft Edge):
 
-*Base de dados do INSS: https://dados.gov.br/dados/conjuntos-dados/inss-comunicacao-de-acidente-de-trabalho-cat1
+Base de dados do INSS: https://dados.gov.br/dados/conjuntos-dados/inss-comunicacao-de-acidente-de-trabalho-cat1
 
-*Referêmcoa das informações de CID-10 do período avaliado: https://www.gov.br/previdencia/pt-br/assuntos/previdencia-social/saude-e-seguranca-do-trabalhador/acidente_trabalho_incapacidade/tabelas-cid-10
+Referêmcoa das informações de CID-10 do período avaliado: https://www.gov.br/previdencia/pt-br/assuntos/previdencia-social/saude-e-seguranca-do-trabalhador/acidente_trabalho_incapacidade/tabelas-cid-10
 
-*Referência das informações de CNAE 2.0 Classes da Estrutura superior: https://concla.ibge.gov.br/classificacoes/download-concla.html
+Referência das informações de CNAE 2.0 Classes da Estrutura superior: https://concla.ibge.gov.br/classificacoes/download-concla.html
 
-*Referência das informações da Tabela 14 do eSocial para extrair e cruzar informações do tipo "Agentes causadores do acidente": https://www.gov.br/esocial/pt-br/documentacao-tecnica/manuais/leiautes-esocial-v-1-1-beta/tabelas.html#14
+Referência das informações da Tabela 14 do eSocial para extrair e cruzar informações do tipo "Agentes causadores do acidente": https://www.gov.br/esocial/pt-br/documentacao-tecnica/manuais/leiautes-esocial-v-1-1-beta/tabelas.html#14
