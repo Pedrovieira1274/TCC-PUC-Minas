@@ -55,7 +55,7 @@ Fluxo completo do processo ETL. Para melhor visualização, as informações est
 
 ![Imagem 07 - Fluxo ETL de unificação dos dados e geração final da base tratada](https://github.com/Pedrovieira1274/TCC-PUC-Minas/assets/170687062/42fbd382-cec5-4a30-9939-d50d01aa8b15)
 
-- Dashboard
+-Dashboard
 
 AAAAA
 
