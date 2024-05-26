@@ -55,10 +55,6 @@ Fluxo completo do processo ETL. Para melhor visualização, as informações est
 
 ![Imagem 07 - Fluxo ETL de unificação dos dados e geração final da base tratada](https://github.com/Pedrovieira1274/TCC-PUC-Minas/assets/170687062/42fbd382-cec5-4a30-9939-d50d01aa8b15)
 
--Dashboard
-
-AAAAA
-
 - Dashboard Estratégico (desenvolvido em Power BI)
 
 ![Imagem 08 - Dashboard Estratégico](https://github.com/Pedrovieira1274/TCC-PUC-Minas/assets/170687062/33043e84-9160-4e74-9206-a067a36bbc5d)
