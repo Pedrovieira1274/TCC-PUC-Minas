@@ -8,8 +8,6 @@ As informações coletadas são a nível Brasil, de Janeiro de 2019 a Dezembro d
 
 A aplicação desta análise deverá ser utilizada para melhorar a percepção do cenário atual sobre o acidente de trabalho no Brasil. Tratando com os dados de registro do Instituto Nacional do Seguro Social (INSS).
 
-Fonte (utilizar navegador Microsoft Edge): https://dados.gov.br/dados/conjuntos-dados/inss-comunicacao-de-acidente-de-trabalho-cat1
-
 - Objetivo
 
 Objetivoapresentar uma análise dos recentes comunicados de acidentes de trabalho para a tomada de decisões estratégicas a fim de minimizar futuras repetições.
@@ -40,15 +38,13 @@ Para compor a base inicial, precisou realizar a extração de três bases de dad
 Tais bases coletadas:
 
 I. Informações de cadastro do CID-10 do período relacionado às informações. 
-Fonte (utilizar navegador Microsoft Edge): https://www.gov.br/previdencia/pt-br/assuntos/previdencia-social/saude-e-seguranca-do-trabalhador/acidente_trabalho_incapacidade/tabelas-cid-10
 
 II. Informações de cadastro do CNAE 2.0 Classes da Estrutura superior. 
-Fonte (utilizar navegador Microsoft Edge): https://concla.ibge.gov.br/classificacoes/download-concla.html
 
 III. Informações da Tabela 14 do eSocial, utilizando a Base completa de Agentes causadores do acidente.
-Fonte (utilizar navegador Microsoft Edge): https://www.gov.br/esocial/pt-br/documentacao-tecnica/manuais/leiautes-esocial-v-1-1-beta/tabelas.html#14
 
 - Processos de Integração e Carga (ETL)
+
 Fluxo completo do processo ETL. Para melhor visualização, as informações estão apresentadas as etapas de cada fluxo.
 
 ![Imagem 03 - Fluxo completo do processo ETL](https://github.com/Pedrovieira1274/TCC-PUC-Minas/assets/170687062/766da54e-0143-4eb0-b796-01674f175b96)
@@ -81,3 +77,12 @@ Fluxo completo do processo ETL. Para melhor visualização, as informações est
 
 ![Imagem 10 - Dashboard Operacional](https://github.com/Pedrovieira1274/TCC-PUC-Minas/assets/170687062/f5bf7546-328c-4e4c-b84c-a263791aef4f)
 
+- Links e referências (utilizar navegador Microsoft Edge):
+
+ºBase de dados do INSS: https://dados.gov.br/dados/conjuntos-dados/inss-comunicacao-de-acidente-de-trabalho-cat1
+
+ºReferêmcoa das informações de CID-10 do período avaliado: https://www.gov.br/previdencia/pt-br/assuntos/previdencia-social/saude-e-seguranca-do-trabalhador/acidente_trabalho_incapacidade/tabelas-cid-10
+
+ºReferência das informações de CNAE 2.0 Classes da Estrutura superior: https://concla.ibge.gov.br/classificacoes/download-concla.html
+
+ºReferência das informações da Tabela 14 do eSocial para extrair e cruzar informações do tipo "Agentes causadores do acidente": https://www.gov.br/esocial/pt-br/documentacao-tecnica/manuais/leiautes-esocial-v-1-1-beta/tabelas.html#14
