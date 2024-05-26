@@ -1,4 +1,4 @@
-- Apresentação
+#Apresentação:
 
 A proposta é abordar os registros das informações coletadas dos Comunicados de Acidente de Trabalho (CAT).
 
