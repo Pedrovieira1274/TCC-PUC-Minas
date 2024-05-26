@@ -8,7 +8,7 @@ As informações coletadas são a nível Brasil, de Janeiro de 2019 a Dezembro d
 
 A aplicação desta análise deverá ser utilizada para melhorar a percepção do cenário atual sobre o acidente de trabalho no Brasil. Tratando com os dados de registro do Instituto Nacional do Seguro Social (INSS).
 
-Fonte: https://dados.gov.br/signin
+Fonte: https://dados.gov.br
 
 - Objetivo
 
