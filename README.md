@@ -40,10 +40,13 @@ Para compor a base inicial, precisou realizar a extração de três bases de dad
 Tais bases coletadas:
 
 I. Informações de cadastro do CID-10 do período relacionado às informações. 
+Fonte (utilizar navegador Microsoft Edge): https://www.gov.br/previdencia/pt-br/assuntos/previdencia-social/saude-e-seguranca-do-trabalhador/acidente_trabalho_incapacidade/tabelas-cid-10
 
 II. Informações de cadastro do CNAE 2.0 Classes da Estrutura superior. 
+Fonte (utilizar navegador Microsoft Edge): https://concla.ibge.gov.br/classificacoes/download-concla.html
 
 III. Informações da Tabela 14 do eSocial, utilizando a Base completa de Agentes causadores do acidente.
+Fonte (utilizar navegador Microsoft Edge): https://www.gov.br/esocial/pt-br/documentacao-tecnica/manuais/leiautes-esocial-v-1-1-beta/tabelas.html#14
 
 - Processos de Integração e Carga (ETL)
 Fluxo completo do processo ETL. Para melhor visualização, as informações estão apresentadas as etapas de cada fluxo.
