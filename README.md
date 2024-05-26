@@ -6,9 +6,11 @@ A CAT trata-se de um comunicado, de caráter obrigatório pela Lei Nº5452 de 19
 
 As informações coletadas são a nível Brasil, de Janeiro de 2019 a Dezembro de 2020. Abordar a necessidade de um melhor refinamento das informações e assim ter um melhor aproveitamento e análise das informações para uma rápida tomada de decisão estratégica.
 
+Fonte: https://dados.gov.br/dados/conjuntos-dados/inss-comunicacao-de-acidente-de-trabalho-cat1
+
 A aplicação desta análise deverá ser utilizada para melhorar a percepção do cenário atual sobre o acidente de trabalho no Brasil. Tratando com os dados de registro do Instituto Nacional do Seguro Social (INSS).
 
-- Objetivo:
+- Objetivo
 
 Objetivoapresentar uma análise dos recentes comunicados de acidentes de trabalho para a tomada de decisões estratégicas a fim de minimizar futuras repetições.
 
