@@ -77,6 +77,24 @@ Fluxo completo do processo ETL. Para melhor visualização, as informações est
 
 ![Imagem 10 - Dashboard Operacional](https://github.com/Pedrovieira1274/TCC-PUC-Minas/assets/170687062/f5bf7546-328c-4e4c-b84c-a263791aef4f)
 
+- Registros de Homologação
+
+° Fluxo completo do processo de Registro de Homologação:
+
+![Imagem 12 - Registro de Homologação (completo)](https://github.com/Pedrovieira1274/TCC-PUC-Minas/assets/170687062/671074f0-6e98-4094-87fe-2532a6ec0c91)
+
+° Fluxo do processo de Registro de Homologação do total de acidentes:
+
+![Imagem 13 - Registro de Homologação (Total de CATs)](https://github.com/Pedrovieira1274/TCC-PUC-Minas/assets/170687062/ca55eea3-3014-4d96-875f-53ad97a29bf6)
+
+° Fluxo do processo de Registro de Homologação (CATs por ano):
+
+![Imagem 14 - Registro de Homologação (CATs por ano de 2019 e 2020)](https://github.com/Pedrovieira1274/TCC-PUC-Minas/assets/170687062/fcd94f36-39eb-47ce-8e64-a3a17f0f9bfc)
+
+° Fluxo do processo de Registro de Homologação (CATs por tipo de sexo):
+
+![Imagem 15 - Registro de Homologação (CATs por tipo de sexo)](https://github.com/Pedrovieira1274/TCC-PUC-Minas/assets/170687062/5b248a75-a268-4af7-9274-044e6ddd9ebf)
+
 - Links e referências (utilizar navegador Microsoft Edge):
 
 Base de dados do INSS (acessado em 10/03/2024): https://dados.gov.br/dados/conjuntos-dados/inss-comunicacao-de-acidente-de-trabalho-cat1
