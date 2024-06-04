@@ -1,4 +1,4 @@
-- Apresentação
+# - Apresentação
 
 A proposta é abordar os registros das informações coletadas dos Comunicados de Acidente de Trabalho (CAT).
 
@@ -8,21 +8,21 @@ As informações coletadas são a nível Brasil, de Janeiro de 2019 a Dezembro d
 
 A aplicação desta análise deverá ser utilizada para melhorar a percepção do cenário atual sobre o acidente de trabalho no Brasil. Tratando com os dados de registro do Instituto Nacional do Seguro Social (INSS).
 
-- Objetivo
+# - Objetivo
 
 Objetivoapresentar uma análise dos recentes comunicados de acidentes de trabalho para a tomada de decisões estratégicas a fim de minimizar futuras repetições.
 
-- Público alvo
+# - Público alvo
 
 Este trabalho destina-se a despertar percepções para todos que se interessam por ações de prevenção sobre Saúde e Trabalho (SST), mas principalmente para estudantes e profissionais de Serviço Especializado de Segurança e Medicina do Trabalho (SESMT) que possuem habitualidade para abordagem deste tema.
 
-- Modelo Dimensional
+# - Modelo Dimensional
 
 A imagem abaixo representa o modelo dimensional, onde apresenta os resultados disponibilizados pelo INSS, contendo informações quantitativas do evento, tais como: tempo (ano, mês e dia), sexo de quem sofreu o acidente, local do estado que ocorreu, se é típico da atividade ou de trajeto, se gerou óbito, qual o ramo de atividade da empresa, a natureza das lesões causadas e as possíveis causas que originaram o acidente.
 
 ![Imagem 01 - Modelo dimensional](https://github.com/Pedrovieira1274/TCC-PUC-Minas/assets/170687062/092394d6-320e-4ba2-b6b5-fa7042631156)
 
-- Fatos e Dimensões
+# - Fatos e Dimensões
 
 Os dados disponibilizados e coletados do INSS consistem em tabelas contendo fatos e dimensões.
 
@@ -30,7 +30,7 @@ Conforme imagem abaixo apresentada, a tabela fato consiste na unificação das i
 
 ![Imagem 02 - Fatos e Dimensões](https://github.com/Pedrovieira1274/TCC-PUC-Minas/assets/170687062/098e0a14-230a-4477-894c-e4dc3ac1722a)
 
-- Fontes de Dados
+# - Fontes de Dados
 
 Nessa etapa, da lista de conjuntos de dados encontrados, utilizou-se a base de informações do Portal de Dados Aberto - Governo Brasileiro. Foi realizada a extração de dados, no formato Excel, do histórico de acidentes ocorridos de Janeiro de 2019 a Dezembro de 2020. 
 
@@ -43,7 +43,7 @@ II. Informações de cadastro do CNAE 2.0 Classes da Estrutura superior.
 
 III. Informações da Tabela 14 do eSocial, utilizando a Base completa de Agentes causadores do acidente.
 
-- Processos de Integração e Carga (ETL)
+# - Processos de Integração e Carga (ETL)
 
 Fluxo completo do processo ETL. Para melhor visualização, as informações estão apresentadas as etapas de cada fluxo.
 
@@ -65,19 +65,19 @@ Fluxo completo do processo ETL. Para melhor visualização, as informações est
 
 ![Imagem 07 - Fluxo ETL de unificação dos dados e geração final da base tratada](https://github.com/Pedrovieira1274/TCC-PUC-Minas/assets/170687062/42fbd382-cec5-4a30-9939-d50d01aa8b15)
 
-- Dashboard Estratégico (desenvolvido em Power BI)
+# - Dashboard Estratégico (desenvolvido em Power BI)
 
 ![Imagem 08 - Dashboard Estratégico](https://github.com/Pedrovieira1274/TCC-PUC-Minas/assets/170687062/33043e84-9160-4e74-9206-a067a36bbc5d)
 
-- Dashboard Tático (desenvolvido em Power BI)
+# - Dashboard Tático (desenvolvido em Power BI)
 
 ![Imagem 09 - Dashboard Tático](https://github.com/Pedrovieira1274/TCC-PUC-Minas/assets/170687062/cdc6014c-eb61-436b-b142-63f23af7202b)
 
-- Dashboard Operacional (desenvolvido em Power BI)
+# - Dashboard Operacional (desenvolvido em Power BI)
 
 ![Imagem 10 - Dashboard Operacional](https://github.com/Pedrovieira1274/TCC-PUC-Minas/assets/170687062/f5bf7546-328c-4e4c-b84c-a263791aef4f)
 
-- Registros de Homologação
+# - Registros de Homologação
 
 ° Fluxo completo do processo de Registro de Homologação:
 
@@ -95,7 +95,71 @@ Fluxo completo do processo ETL. Para melhor visualização, as informações est
 
 ![Imagem 15 - Registro de Homologação (CATs por tipo de sexo)](https://github.com/Pedrovieira1274/TCC-PUC-Minas/assets/170687062/5b248a75-a268-4af7-9274-044e6ddd9ebf)
 
-- Links e referências (utilizar navegador Microsoft Edge):
+# - Análises avançadas
+Para a aplicação de técnicas de aprendizado de máquina, foi utilizado a ferramenta um algoritmo de regressão linear do pacote sklearn. Para treinamento do modelo, utilizamos 40% do dataset e 60% para predição. Encontramos uma correlação baixa, utilizando uma métrica do R², que não explicou de forma linear a relação entre as variáveis D, CID10, CBO e CNAE com o somatório de óbitos.
+
+Sendo assim, obtivemos um valor de R² muito baixo, de 0,0002. Ou seja, o modelo possui dificuldade para apresentar os dados de forma linear.
+
+![Imagem 11 - Análises avançadas](https://github.com/Pedrovieira1274/TCC-PUC-Minas/assets/170687062/9f6471fe-db0b-43d0-b190-2f1c6bb7f920)
+
+º Passo a passo realizado
+1. Utilização da ferramenta Panda em Python para acessar a base tratada do processo de ETL do Alteryx.
+2. Sklearn para aplicar o modelo de regressao linear.
+3. Pyplot para fazer o grafico.
+4. Treinamento do modelo, sendo utilziado 40% do dataset e 60% para predição.
+5. Resultado de uma correlação baixa, utilizando uma métrica do R².
+
+Código fonte utilizado:
+
+# Imports
+ 
+import pandas as pd
+
+import matplotlib.pyplot as plt
+
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error
+
+# Dados da cat de Janeiro 2019 a Dezembro 2020)
+
+data2 = pd.read_excel('cat3.xlsx')
+data2
+
+# Seleção de características e divisão dos dados
+
+X = data.drop('Sum_fl_obito', axis=1)  # Usando todas as colunas exceto 'Sum_fl_obito' como variáveis independentes
+y = data['Sum_fl_obito']  # 'Sum_fl_obito' sera variável dependente
+
+# Divisao dos dados em treino e teste
+# random_state = 42 garante sempre a mesma amostragem
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state=42)
+
+# Criacao da instancia de classe
+
+model = LinearRegression()
+
+# Fit modelo
+
+model.fit(X_train, y_train)
+
+# Criando um DataFrame para visualizar melhor os coeficientes
+coeff_df = pd.DataFrame({
+    'Feature': X.columns,
+    'Coefficient': model.coef_
+})
+print(coeff_df)
+
+# Mostrando também a interceptação
+print("\nInterceptação:", model.intercept_)
+
+y_pred = model.predict(X_test)
+
+print("R quadrado = {}".format(model.score(X_test, y_test)))
+
+
+# - Links e referências (utilizar navegador Microsoft Edge):
 
 Base de dados do INSS (acessado em 10/03/2024): https://dados.gov.br/dados/conjuntos-dados/inss-comunicacao-de-acidente-de-trabalho-cat1
 
